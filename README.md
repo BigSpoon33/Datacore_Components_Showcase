@@ -1,6 +1,6 @@
 # Glo* Component Library
 
-A themed, mobile-friendly component library for Obsidian DatacoreJS.
+A themed, mobile-friendly component library for Obsidian DatacoreJSX.
 
 ## Features
 
@@ -60,6 +60,25 @@ The Theme Studio provides complete theme management:
 await dc.require(dc.fileLink("System/Scripts/Widgets/dc-themeStudio.jsx"))
 ```
 
+or as a codeblock
+
+```markdown
+```datacorejsx
+const scriptPath = "System/Scripts/Widgets/dc-themeStudio.jsx";
+const target = dc.fileLink(scriptPath);
+const result = await dc.require(target);
+const view = result?.renderedView ?? result?.View ?? result;  
+const Func = result?.Func ?? null;
+
+return function View() {
+    const currentFile = dc.useCurrentFile();
+    if (Func) {
+        return Func({ currentFile, scriptPath });
+    }
+    return view ?? <p>Failed to render</p>;
+}
+```
+
 Create custom themes with the Theme Studio
 
 ## Folder Structure
@@ -78,7 +97,10 @@ System/
 
 - Obsidian v1.0+
 - Datacore plugin
+- Minimal Theme by Kepano
+- Minimal Theme Settings
+- Style Settings
 
 ## Credits
 
-Created by Rice AF
+Created by Rice AF (more like Potato AF)
