@@ -168,27 +168,27 @@ System/
 ### Flashy Themes (DIY)
 
 #### Bars
-![Bars With Custom Theme](Assets/Bars.mp4)
+![Bars With Custom Theme](Assets/Bars.gif)
 
 ---
 
 #### Toggles
-![TogglesWith Custom Theme](Assets/Toggles.mp4)
+![TogglesWith Custom Theme](Assets/Toggles.gif)
 
 ---
 
 #### Buttons
-![Buttons With Custom Theme](Assets/Buttons.mp4)
+![Buttons With Custom Theme](Assets/Buttons.gif)
 
 ---
 
 #### Selects and Inputs
-![Selects and Inputs With Custom Theme](Assets/SelectandInputs.mp4)
+![Selects and Inputs With Custom Theme](Assets/SelectandInputs.gif)
 
 ---
 
 #### Switching Themes
-![Switching Themes With Custom Theme](Assets/ThemeSwitch.mp4)
+![Switching Themes With Custom Theme](Assets/ThemeSwitch.gif)
 
 
 
